@@ -125,7 +125,7 @@ const events: Event[] = [
 
 const Galeria = () => {
   return (
-    <section id="gallery" className="bg-muted py-24">
+    <section id="gallery" className="bg-muted py-24 px-4">
     <div className="container mx-auto">
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Event Gallery</h2>
       <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

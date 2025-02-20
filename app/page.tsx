@@ -20,7 +20,7 @@ export default function Page() {
       <Galeria />
 
       {/* Contact Section */}
-      <section id="contact" className="py-24">
+      <section id="contact" className="py-24 px-4">
         <div className="container mx-auto">
           <div className="grid gap-8 lg:grid-cols-2">
             <div>
@@ -82,7 +82,7 @@ export default function Page() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t py-8">
+      <footer className="border-t py-8 px-4">
         <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-center text-sm text-muted-foreground">
             © {new Date().getFullYear()} EventPro. All rights reserved.

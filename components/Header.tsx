@@ -1,10 +1,9 @@
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import {ModeToggle} from "@/components/mode-toggle";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm flex justify-center">
+    <header className="fixed top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm flex justify-center px-4">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="text-xl font-bold">
           Camaleon
@@ -22,8 +21,6 @@ const Header = () => {
         </nav>
         <div className="flex items-center gap-4">
           <ModeToggle />
-          <Button>
-            <Link href="#contact">Contáctenos</Link></Button>
         </div>
       </div>
     </header>

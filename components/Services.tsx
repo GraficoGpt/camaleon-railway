@@ -34,7 +34,7 @@ const Services = () => {
         },
       ]
   return (
-    <section id="services" className="py-24">
+    <section id="services" className="py-24 px-4">
     <div className="container mx-auto">
       <h2 className="text-center text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our Services</h2>
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

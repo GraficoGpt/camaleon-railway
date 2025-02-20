@@ -11,7 +11,7 @@ import Miniatura from '@/app/assets/Miniatura.webp';
 const Hero = () => {
   return (
     <section className="relative pt-16">
-      <div className="aspect-video w-full">
+      <div className="aspect-video w-full  h-[60vh] sm:h-auto">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
